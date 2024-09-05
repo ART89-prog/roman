@@ -31,7 +31,6 @@
 		<link rel="stylesheet" href="css/swiper-bundle.min.css">		
 		<link rel="stylesheet" href="css/swiper.css">
 		<link rel="stylesheet" href="css/fancybox.css">
-		<link rel="stylesheet" href="css/ion.rangeSlider.css">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<link rel="stylesheet" href="css/response_1300.css" media="print, (max-width: 1300px)">
@@ -106,6 +105,20 @@
 				</section>
 
 
+
+				<section class="appeal">
+					<div class="cont">
+						<div class="appeal_title title">Обращение автора</div>
+						<div class="appeal_video">
+							<a data-fancybox href="https://www.youtube.com/watch?v=L256daBIAtU">
+								<img src="images/video.png" alt="">
+							</a>
+						</div>
+						<a href="#" class="btn-orange">Хочу книгу сейчас!</a>
+					</div>
+				</section>
+
+
 			</div>
 			
 
@@ -147,27 +160,11 @@
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
-		<script src="js/fancybox.js"></script>
-		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
 		<script src="js/imask.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
-		
-
-		<script src="https://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
-		<script>			
-			ymaps.ready(init);
-
-				function init () {
-					var myMap = new ymaps.Map('map', {
-							center: [55.797291,37.798107],
-							zoom: 14
-						})
-
-					myMap.geoObjects.add(myPlacemark1)
-						.add(myPlacemark2);
-				}
-		</script>
+	
 
 	</body>
 </html>

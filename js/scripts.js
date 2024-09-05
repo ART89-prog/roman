@@ -78,138 +78,6 @@ $(() => {
 
 
 
-
-  var $range = $("#amount-slider");
-  var $input = $("#amount");
-  var instance;
-  var min = 1000000;
-  var max = 100000000;
-  var step = 1000000;
-
-  $range.ionRangeSlider({
-    min: min,
-    max: max,
-    prefix: "От ",
-    postfix: ' руб.',
-    max_prefix: "До ",
-    from: 2000000,
-    step: step,
-    onStart: function (data) {
-      $input.prop("value", data.from);
-    },
-    onChange: function (data) {
-      $input.prop("value", data.from);
-    }
-  });
-
-  instance = $range.data("ionRangeSlider");
-
-  $input.on("input", function () {
-    var val = $(this).prop("value");
-
-    // validate
-    if (val < min) {
-      val = min;
-      $(this).prop("value", val);
-    } else if (val > max) {
-      val = max;
-      $(this).prop("value", val);
-    }
-
-    instance.update({
-      from: val
-    });
-  });
-
-
-
-
-
-  var $range2 = $("#amount-slider2");
-  var $input2 = $("#amount2");
-  var instance;
-  var min = 0;
-  var max = 100;
-  var step = 1;
-
-  $range2.ionRangeSlider({
-    min: min,
-    max: max,
-    from: 12,
-    step: step,
-    onStart: function (data) {
-      $input2.prop("value", data.from);
-    },
-    onChange: function (data) {
-      $input2.prop("value", data.from);
-    }
-  });
-
-  instance = $range2.data("ionRangeSlider");
-
-  $input2.on("input", function () {
-    var val = $(this).prop("value");
-
-    // validate
-    if (val < min) {
-      val = min;
-      $(this).prop("value", val);
-    } else if (val > max) {
-      val = max;
-      $(this).prop("value", val);
-    }
-
-    instance.update({
-      from: val
-    });
-  });
-
-
-
-  var $range3 = $("#amount-slider3");
-  var $input3 = $("#amount3");
-  var instance;
-  var min = 1;
-  var max = 30;
-  var step = 1;
-
-  $range3.ionRangeSlider({
-    min: min,
-    max: max,
-    prefix: "От ",
-    postfix: ' года',
-    from: 3,
-    step: step,
-    onStart: function (data) {
-      $input3.prop("value", data.from);
-    },
-    onChange: function (data) {
-      $input3.prop("value", data.from);
-    }
-  });
-
-  instance = $range3.data("ionRangeSlider");
-
-  $input3.on("input", function () {
-    var val = $(this).prop("value");
-
-    // validate
-    if (val < min) {
-      val = min;
-      $(this).prop("value", val);
-    } else if (val > max) {
-      val = max;
-      $(this).prop("value", val);
-    }
-
-    instance.update({
-      from: val
-    });
-  });
-
-
-
-
   // Показать контент 
   $(".reviews_item-link").click(function (e) {
     e.preventDefault();
@@ -230,6 +98,8 @@ $(() => {
       type: 'inline',
     }]);
   })
+
+
 
 
 
