@@ -1,0 +1,82 @@
+@media print, (max-width: 767px) {
+
+
+    .first-section_title {
+        font-size: 24px;
+    }
+    .first-section_text {
+        display: none;
+    }
+    .advantages_top {
+        display: none;
+    }
+    .advantages_items > * {
+        width: 100%;
+    }
+    .advantages_items {
+        gap: 10px;
+    }
+    .block {
+        margin-top: 50px;
+    }
+    .service_items > * {
+        flex-direction: column-reverse;
+    }
+    .service_item-info {
+        width: 100%;
+    }
+    .service_item-title {
+        text-align: center;
+        font-weight: 700;
+    }
+    .service_item-text {
+        text-align: center;
+    }
+    .service_item-btn {
+        margin: auto;
+    }
+    .reason {
+        display: none;
+    }
+    .title {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .stage_item-title {
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .consultation {
+        display: none;
+    }
+    .partner {
+        display: none;
+    }
+    .accordion_item {
+        margin-bottom: 10px;
+    }
+    .accordion_item-head {
+        padding: 12px 10px 12px 20px;
+    }
+    .reviews_item {
+        padding: 20px;
+    }
+    .contact {
+        margin-top: 80px;
+    }
+    .map_wrap {
+        display: none;
+    }
+    .header_phone {
+        margin-top: 0;
+    }
+    .calculator {
+        display: none;
+    }
+
+
+
+
+
+
+}

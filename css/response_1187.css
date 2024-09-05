@@ -1,0 +1,32 @@
+@media print, (max-width: 1187px) {
+
+    .advantages_items > * {
+        width: calc(100% / 2 - 15px);
+    }
+    .service_item-img {
+        width: 160px;
+        height: 160px;
+    }
+    .service_item-info {
+        width: calc(100% - 190px);
+    }
+    .reason_items > * {
+        padding: 20px;
+    }
+    .reason_item-img {
+        width: 160px;
+        height: 160px;
+    }
+    .partner_items > * {
+        width: calc(100% / 3 - 46px);
+        display: flex;
+        justify-content: center;
+    }
+    .calculator_left {
+        width: calc(100% - 530px);
+    }
+
+
+
+
+}
