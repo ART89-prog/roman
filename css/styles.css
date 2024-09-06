@@ -834,6 +834,7 @@ header {
 
 
 
+
 .denial_title {
     margin-bottom: 25px;
 }
@@ -1093,6 +1094,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 5px;
 }
 .faq .accordion_item + .accordion_item {
     margin-top: 15px;
@@ -1140,6 +1142,18 @@ header {
     line-height: 19px;
     color: #000000;
 }
+.faq .accordion_item-data a {
+    margin-bottom: 15px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.faq .accordion_item-data b a {
+    font-weight: 400;
+    text-decoration: none;
+}
 .faq .accordion_item ul li {
     font-family: 'Gilroy';
     font-weight: 400;
@@ -1158,7 +1172,29 @@ header {
     font-weight: 400;
     text-decoration: none;
 }
-
+.faq .accordion_item-data ol {
+    list-style: none;
+    counter-reset: section3;
+}
+.faq .accordion_item-data ol li {
+    position: relative;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 15px;
+    border-bottom: none;
+}
+.faq .accordion_item-data ol li::before {
+    counter-increment: section3;
+    content: counter(section3) ". ";
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
 
 
 
