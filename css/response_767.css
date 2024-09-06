@@ -1,77 +1,148 @@
 @media print, (max-width: 767px) {
 
 
-    .first-section_title {
-        font-size: 24px;
+    .header_contact {
+        flex-direction: column;
+        gap: 19px;
+        align-items: flex-end;
     }
-    .first-section_text {
-        display: none;
+    header {
+        padding: 7px 0 20px;
     }
-    .advantages_top {
-        display: none;
+    .header_wrap {
+        align-items: flex-start;
     }
-    .advantages_items > * {
+    .cont {
+        padding: 0 10px;
+    }
+    .need ul > * {
+        width: 100%;        
+    }
+    .need ul {
+        row-gap: 20px;
+    }
+    .need_title {
+        margin-bottom: 20px;
+    }
+    .need_text {
+        margin-bottom: 30px;
+    }
+    .book_box {
+        padding: 60px 20px;
+    }
+    .book_img {
+        width: 263px;
+        height: 377px;
+        margin: 0 auto;
+    }
+    .book_text-big {
+        margin-bottom: 30px;
+    }
+    .book_wrap  {
+        gap: 30px;
+        flex-direction: column;
+    }
+    .book_info {
         width: 100%;
     }
-    .advantages_items {
-        gap: 10px;
+    .volume_items {
+        column-gap: 20px;
+        row-gap: 30px;
+        flex-wrap: wrap;
     }
-    .block {
-        margin-top: 50px;
+    .volume_items > * {
+        width: calc(100% / 2 - 10px);
     }
-    .service_items > * {
-        flex-direction: column-reverse;
+    .header_logo {
+        font-size: 14px;
     }
-    .service_item-info {
-        width: 100%;
+    .header_logo span {
+        max-width: 108px;
     }
-    .service_item-title {
-        text-align: center;
-        font-weight: 700;
+    .header_callback {
+        font-size: 14px;
     }
-    .service_item-text {
-        text-align: center;
-    }
-    .service_item-btn {
-        margin: auto;
-    }
-    .reason {
-        display: none;
-    }
-    .title {
-        font-size: 25px;
-        margin-bottom: 25px;
-    }
-    .stage_item-title {
-        font-weight: 700;
-        font-size: 18px;
-    }
-    .consultation {
-        display: none;
-    }
-    .partner {
-        display: none;
-    }
-    .accordion_item {
-        margin-bottom: 10px;
-    }
-    .accordion_item-head {
-        padding: 12px 10px 12px 20px;
-    }
-    .reviews_item {
-        padding: 20px;
-    }
-    .contact {
-        margin-top: 80px;
-    }
-    .map_wrap {
-        display: none;
+    .header_contact {
+        gap: 5px;
     }
     .header_phone {
-        margin-top: 0;
+        font-size: 14px;
     }
-    .calculator {
-        display: none;
+    .first-section_title {
+        font-size: 20px;
+    }
+    .first-section {
+        padding-top: 20px;
+    }
+    .first-section_wrap {
+        flex-direction: column;
+    }
+    .first-section_img {
+        margin: 0 auto;
+        width: 290px;
+    }
+    .first-section_info-title {
+        font-size:45px;
+    }
+    .first-section_info-title span {
+        font-size: 30px;
+    }
+    .first-section_info {
+        width: 100%;
+    }
+    .first-section_info-title {
+        margin-bottom: 14px;
+    }
+    .first-section_info-text {
+        font-size: 16px;
+    }
+    .first-section_info-btns {
+        align-items: center;
+    }
+    .first-section_items {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .first-section_items > * {
+        font-size: 12px;
+    }
+    .first-section_bottom {
+        font-size: 10px;
+        padding: 12px 0 8px;
+    }
+    .first-section_info {
+        margin-top: -20px;
+    }
+    .about ul > * {
+        width: 100%;
+    }
+    .about ul {
+        gap: 10px;
+    }
+    .appeal_video {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 30px;
+    }
+    .swiper-slide {
+        width: 100%;
+    }
+    .reviews_wrap {
+        max-width: calc(100% - 160px);
+    }
+    .volume_item-img {
+        width: 100%;
+        height: auto;
+    }
+    .faq .accordion_item-head {
+        padding: 13px 20px 13px 20px;
+    }
+    .faq .accordion_item-data {
+        padding: 10px 20px 20px 20px;
+    }
+    .swiper-button-next:hover, 
+    .swiper-button-prev:hover {
+        background: none;
     }
 
 
