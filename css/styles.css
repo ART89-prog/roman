@@ -954,8 +954,11 @@ header {
 
 
 
-.book .cont {
+.book_box {
     max-width: 800px;
+    background: #ECF1F2;
+    padding: 80px 60px;
+    margin: 0 auto;
 }
 .book_title {
     max-width: 555px;
@@ -1018,7 +1021,7 @@ header {
 .book_bottom-info p + p {
     margin-top: 10px;
 }
-.book_bottom-info a {
+.book_bottom a {
     font-family: 'Gilroy';
     font-weight: 700;
     font-size: 20px;
