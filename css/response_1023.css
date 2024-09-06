@@ -57,9 +57,49 @@
     .price_items > * {
         width: 100%;
     }
-  
-
-
+    .need_img {
+        width: 100%;
+        height: auto;
+    }
+    .footer_info {
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+        gap: 60px;
+    }
+    .footer_info > * {
+        width: calc(100%/2 - 30px);
+    }
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_text-big {
+        display: none;
+    }
+    .footer_soc {
+        margin-bottom: 0;
+    }
+    .footer_items {
+        width: 100%;
+        row-gap: 40px;
+        margin-bottom: 47px;
+    }
+    .footer_items > *,
+    .footer_item:last-child {
+        width: calc(100%/2 - 30px);
+    }
+    .footer_item-copy {
+        margin-top: 0;
+    }
+    footer {
+        padding: 52px 0 62px;
+        min-height: 100%;
+        margin-top: 60px;
+    }
+    .footer_text-small {
+        max-width: 258px;
+    }
 
 
     

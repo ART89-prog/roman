@@ -1209,7 +1209,7 @@ footer {
     padding: 80px 0 80px;
     background: #333333;
     margin-top: 80px;
-    height: 302px;
+    min-height: 302px;
 }
 .footer_wrap {
     display: flex;
