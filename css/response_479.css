@@ -178,6 +178,9 @@
     .footer_item:nth-child(2) {
         order: 1;
     }
+    .price_items > * {
+        padding: 12px;
+    }
 
 
 
