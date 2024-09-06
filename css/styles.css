@@ -708,11 +708,11 @@ header {
 .accordion_item + .accordion_item {
     margin-top: 20px;
 }
-.accordion_item-data ul {
+.accordion_item-data ol {
     list-style: none;
     counter-reset: section2;
 }
-.accordion_item-data ul li {
+.accordion_item-data ol li {
     position: relative;
     font-family: 'Gilroy';
     font-weight: 400;
@@ -724,7 +724,7 @@ header {
     padding-top: 14px;
     border-bottom: 1px solid #494949;    
 }
-.accordion_item-data ul li::before {
+.accordion_item-data ol li::before {
     counter-increment: section2;
     content: "Тема " counter(section2) ": ";
     font-family: 'Gilroy';
@@ -1088,7 +1088,7 @@ header {
     margin: 0 auto;
 }
 .faq .accordion_item-head {
-    padding: 20px 25px 20px 55px;
+    padding: 13px 25px 13px 55px;
     background: #ECF1F2;
     display: flex;
     align-items: center;
@@ -1114,6 +1114,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .faq .accordion_item.active .accordion_item-icon img {
     transform: rotate(90deg);
@@ -1127,6 +1128,35 @@ header {
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+}
+.faq .accordion_item ul {
+    margin-left: 25px;
+}
+.faq .accordion_item-data p {
+    margin-bottom: 15px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.faq .accordion_item ul li {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;   
+}
+.faq .accordion_item ul li a {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; 
+}
+.faq .accordion_item ul li b a {
+    font-weight: 400;
+    text-decoration: none;
 }
 
 
@@ -1145,9 +1175,6 @@ footer {
     width: 706px;
     justify-content: space-between;
     flex-shrink: 0;
-}
-.footer_items > * {
-    
 }
 .footer_item:last-child {
     width: 100%;
