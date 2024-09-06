@@ -71,6 +71,50 @@ $(() => {
 
 
 
+  const reviews2Sliders = [],
+  reviews2 = document.querySelectorAll('.reviews2 .swiper')
+
+reviews2.forEach(function (el, i) {
+  el.classList.add('reviews2_s' + i)
+
+  let options = {
+    loop: true,
+    speed: 500,
+    watchSlidesProgress: true,
+    slideActiveClass: 'active',
+    slideVisibleClass: 'visible',
+    preloadImages: false,
+    lazy: true,
+    breakpoints: {
+      0: {
+        spaceBetween: 20,
+        slidesPerView: 1
+      },
+      610: {
+        spaceBetween: 20,
+        slidesPerView: 1
+      },
+      768: {
+        spaceBetween: 20,
+        slidesPerView: 1
+      },
+      1023: {
+        spaceBetween: 20,
+        slidesPerView: 1
+      }
+    },
+    navigation: {
+      nextEl: '.reviews2 .swiper-button-next',
+      prevEl: '.reviews2 .swiper-button-prev'
+    }
+  }
+
+  reviews2Sliders.push(new Swiper('.reviews2_s' + i, options))
+})
+
+
+
+
 
 
   // Показать контент 

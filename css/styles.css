@@ -1033,21 +1033,137 @@ header {
 
 
 
-.volume {
+
+.volume_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 41px;
+}
+.volume_items > * {
+    width: calc(100%/3 - 30px);
+}
+.volume_item-img {
+    width: 226px;
+    height: 326px;
+    margin: 0 auto 30px;
+}
+.volume_item-img img {
+    width: 100%;
+    height: 100%;
+}
+.volume_item-title {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.volume_item-text {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+.need.bg {
+    background: none;
+}
+.need_img {
+    margin: 0 auto 45px;
+    width: 760px;
+    height: 468px;
+}
+.need_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.faq .accordion {
+    max-width: 560px;
+    margin: 0 auto;
+}
+.faq .accordion_item-head {
+    padding: 20px 25px 20px 55px;
+    background: #ECF1F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq .accordion_item + .accordion_item {
+    margin-top: 15px;
+}
+.faq .accordion_item-title {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-transform: none;
+}
+.faq .accordion_item-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #E95D1F;
+    box-shadow: 1px 1px 10px rgba(204, 204, 204, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq .accordion_item.active .accordion_item-icon img {
+    transform: rotate(90deg);
+}
+.faq .accordion_item-data {
+    display: none;
+    padding: 10px 58px 30px 45px;
+    background: #ECF1F2;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+
+footer {
+    padding: 80px 0 48px;
+    background: #333333;
 }
 .cont {
 }
-.volume_title {
+.footer_wrap {
+    display: flex;
 }
-.title {
+.footer_items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 706px;
+    gap: 115px;
 }
-.volume_items {
+.footer_items > * {
+    width: calc(100%/4 - 100px);
 }
-.volume_item {
+.footer_item:last-child {
+    width: 100%;
 }
-.volume_item-img {
+.footer_item-title {
 }
-.volume_item-title {
+.footer_item-text {
 }
-.volume_item-text {
+.footer_item-copy {
+}
+.footer_info {
+}
+.footer_soc {
+}
+.footer_text-big {
+}
+.footer_text-small {
 }
