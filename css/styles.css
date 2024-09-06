@@ -466,7 +466,6 @@ header {
     line-height: 1.222;
     text-align: center;
     color: #000000;
-    max-width: 800px;
     margin: 0 auto 45px;
 }
 .first-section_wrap {
@@ -772,25 +771,21 @@ header {
 }
 .need ul {
     list-style: none;
-    column-count: 2;
-    column-gap: 30px;
-    page-break-inside: avoid;
-    break-inside: avoid;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 15px;
 }
-.need ul li {
-    padding-left: 55px;
+.need ul > * {
+    width: calc(100%/2 - 20px);
     font-family: 'Gilroy';
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
     color: #333333;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 25px;
-}
-.need ul li:last-child {
-    margin-bottom: 0;
 }
 .need ul li b {
     display: block;
@@ -816,8 +811,25 @@ header {
     background-repeat: no-repeat;
     box-shadow: 1px 1px 10px rgba(204, 204, 204, 0.25);
 }
-
-
+.need ul li a {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+    white-space: nowrap;
+}
+.need ul li i {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    white-space: nowrap;
+}
 
 
 
@@ -840,4 +852,177 @@ header {
 }
 .denial .btn-orange {
     margin: 0 auto;
+}
+
+
+
+
+.price_items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 30px;
+}
+.price_items > * {
+    width: calc(100%/2 - 30px);
+    background: url(../images/price_bg.png);
+    /* mix-blend-mode: soft-light; */
+    border-radius: 32px;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    padding: 22px 41px;
+}
+.price_bottom {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
+.price_bottom b {
+    font-weight: 700;
+}
+.price_bottom span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+
+.reviews_wrap {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-button-next, 
+.swiper-button-prev {
+    width: 46px;
+    height: 46px;
+    transition: background .2s linear;
+    color: #fff;
+    border: none;
+    background: #ECF1F2;
+}
+.swiper-button-prev {
+    left: -50px;
+}
+.swiper-button-next {
+    right: -50px;
+}
+.swiper {
+    overflow: visible !important;
+}
+.swiper-slide.visible {
+    display: flex;
+    visibility: visible;
+    height: auto;
+    pointer-events: auto;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide.active {
+    display: flex;
+    visibility: visible;
+    height: auto;
+    pointer-events: auto;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide {
+    position: relative;
+    display: flex;
+    visibility: hidden;
+    width: auto;
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.book .cont {
+    max-width: 800px;
+}
+.book_title {
+    max-width: 555px;
+}
+.book_wrap {
+    display: flex;
+    gap: 70px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+}
+.book_img {
+    width: 280px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.book_img img {
+    width: 100%;
+    height: 100%;
+}
+.book_info {
+    width: calc(100% - 350px);
+}
+.book_text-big {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #333333;
+    margin-bottom: 45px;
+}
+.book_text-average {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+    margin-bottom: 35px;
+}
+.book_text-small {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #333333;
+    margin-top: 30px;
+}
+.book_bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.book_bottom-info {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #333333;
+}
+.book_bottom-info p + p {
+    margin-top: 10px;
+}
+.book_bottom-info a {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+    text-decoration: none;
 }

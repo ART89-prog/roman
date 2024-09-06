@@ -53,17 +53,12 @@ $(() => {
         },
         768: {
           spaceBetween: 20,
-          slidesPerView: 2
+          slidesPerView: 1
         },
         1023: {
           spaceBetween: 20,
-          slidesPerView: 3
+          slidesPerView: 1
         }
-      },
-      pagination: {
-        el: '.reviews .swiper-pagination',
-        type: 'bullets',
-        clickable: true,
       },
       navigation: {
         nextEl: '.reviews .swiper-button-next',
