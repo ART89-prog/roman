@@ -468,6 +468,9 @@ header {
     color: #000000;
     margin: 0 auto 45px;
 }
+.first-section_title {
+    max-width: 800px;
+}
 .first-section_wrap {
     display: flex;
     justify-content: space-between;
@@ -487,7 +490,7 @@ header {
     width: 142px;
     height: 142px;
     top: 0;
-    right: -53px;
+    right: -46px;
     background: url(../images/label.png);
 }
 .first-section_info {
@@ -774,7 +777,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     column-gap: 40px;
-    row-gap: 15px;
+    row-gap: 25px;
 }
 .need ul > * {
     width: calc(100%/2 - 20px);
@@ -867,7 +870,9 @@ header {
 .price_items > * {
     width: calc(100%/2 - 30px);
     background: url(../images/price_bg.png);
-    /* mix-blend-mode: soft-light; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 32px;
     font-family: 'Gilroy';
     font-weight: 700;
@@ -875,13 +880,13 @@ header {
     line-height: 130%;
     text-align: center;
     color: #000000;
-    padding: 22px 41px;
+    padding: 22px;
 }
 .price_bottom {
     font-family: 'Gilroy';
     font-weight: 400;
     font-size: 16px;
-    line-height: 130%;
+    line-height: 140%;
     text-align: center;
     color: #000000;
     margin-top: 40px;
@@ -914,10 +919,10 @@ header {
     background: #ECF1F2;
 }
 .swiper-button-prev {
-    left: -50px;
+    left: -70px;
 }
 .swiper-button-next {
-    right: -50px;
+    right: -70px;
 }
 .swiper {
     overflow: visible !important;
@@ -954,11 +959,13 @@ header {
 
 
 
-
+.book.block {
+    padding-bottom: 0;
+}
 .book_box {
-    max-width: 800px;
+    max-width: 760px;
     background: #ECF1F2;
-    padding: 80px 60px;
+    padding: 80px 50px;
     margin: 0 auto;
 }
 .book_title {
@@ -967,9 +974,9 @@ header {
 .book_wrap {
     display: flex;
     gap: 70px;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #000;
-    margin-bottom: 15px;
+    margin-bottom: 22px;
 }
 .book_img {
     width: 280px;
@@ -1097,7 +1104,7 @@ header {
     gap: 5px;
 }
 .faq .accordion_item + .accordion_item {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .faq .accordion_item-title {
     font-family: 'Gilroy';
@@ -1199,11 +1206,14 @@ header {
 
 
 footer {
-    padding: 80px 0 48px;
+    padding: 80px 0 80px;
     background: #333333;
+    margin-top: 80px;
+    height: 302px;
 }
 .footer_wrap {
     display: flex;
+    position: relative;
 }
 .footer_items {
     display: flex;
@@ -1238,12 +1248,16 @@ footer {
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    margin-top: 49px;
 }
 .footer_info {
-    margin-left: -150px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-top: 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .footer_soc {
     display: flex;

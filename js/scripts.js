@@ -56,7 +56,7 @@ $(() => {
           slidesPerView: 1
         },
         1023: {
-          spaceBetween: 20,
+          spaceBetween: 0,
           slidesPerView: 1
         }
       },
@@ -99,7 +99,7 @@ reviews2.forEach(function (el, i) {
         slidesPerView: 1
       },
       1023: {
-        spaceBetween: 20,
+        spaceBetween: 0,
         slidesPerView: 1
       }
     },
@@ -158,7 +158,7 @@ reviews2.forEach(function (el, i) {
     // closeButton: '<img src=images/close_menu.svg>',
     // 	spinner: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="25 25 50 50" tabindex="-1"><circle cx="50" cy="50" r="20"/></svg>',
     // 	main: null
-    closeButton: '<button data-fancybox-close class="f-button is-close-btn" title="Закрыть"><img src=images/close_menu.svg></button>'
+    closeButton: '<button data-fancybox-close class="f-button is-close-btn" title="Закрыть"><img src=images/close.svg></button>'
   }
 
 
