@@ -103,7 +103,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-ExtraBold.eot');
-    src: local('../fonts/Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
         url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
         url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
@@ -114,7 +114,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Heavy.eot');
-    src: local('../fonts/Gilroy Heavy'), local('Gilroy-Heavy'),
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
         url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Heavy.woff') format('woff'),
         url('../fonts/Gilroy-Heavy.ttf') format('truetype');
@@ -125,7 +125,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-SemiBold.eot');
-    src: local('../fonts/Gilroy SemiBold'), local('Gilroy-SemiBold'),
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
         url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-SemiBold.woff') format('woff'),
         url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
@@ -136,7 +136,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Light.eot');
-    src: local('../fonts/Gilroy Light'), local('Gilroy-Light'),
+    src: local('Gilroy Light'), local('Gilroy-Light'),
         url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Light.woff') format('woff'),
         url('../fonts/Gilroy-Light.ttf') format('truetype');
@@ -147,7 +147,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Regular.eot');
-    src: local('../fonts/Gilroy Regular'), local('Gilroy-Regular'),
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
         url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Regular.woff') format('woff'),
         url('../fonts/Gilroy-Regular.ttf') format('truetype');
@@ -158,7 +158,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Medium.eot');
-    src: local('../fonts/Gilroy Medium'), local('Gilroy-Medium'),
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
         url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Medium.woff') format('woff'),
         url('../fonts/Gilroy-Medium.ttf') format('truetype');
@@ -169,7 +169,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-UltraLight.eot');
-    src: local('../fonts/Gilroy UltraLight'), local('Gilroy-UltraLight'),
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),
         url('../fonts/Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-UltraLight.woff') format('woff'),
         url('../fonts/Gilroy-UltraLight.ttf') format('truetype');
@@ -180,7 +180,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Bold.eot');
-    src: local('../fonts/Gilroy Bold'), local('Gilroy-Bold'),
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Bold.woff') format('woff'),
         url('../fonts/Gilroy-Bold.ttf') format('truetype');
@@ -191,7 +191,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Thin.eot');
-    src: local('../fonts/Gilroy Thin'), local('Gilroy-Thin'),
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
         url('../fonts/Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Thin.woff') format('woff'),
         url('../fonts/Gilroy-Thin.ttf') format('truetype');
@@ -202,7 +202,7 @@ input[type=number] {
 @font-face {
     font-family: 'Gilroy';
     src: url('../fonts/Gilroy-Black.eot');
-    src: local('../fonts/Gilroy Black'), local('Gilroy-Black'),
+    src: local('Gilroy Black'), local('Gilroy-Black'),
         url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Gilroy-Black.woff') format('woff'),
         url('../fonts/Gilroy-Black.ttf') format('truetype');
