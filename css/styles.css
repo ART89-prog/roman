@@ -476,10 +476,12 @@ header {
     justify-content: space-between;
 }
 .first-section_img {
-    width: 377px;
+    width: 378px;
     height: auto;
-    margin-left: 104px;
+    margin-left: 108px;
     position: relative;
+    margin-top: -5px;
+
 }
 .first-section_img img {
     width: 100%;
@@ -489,8 +491,8 @@ header {
     content: "";
     width: 142px;
     height: 142px;
-    top: 0;
-    right: -46px;
+    top: 2px;
+    right: -49px;
     background: url(../images/label.png);
 }
 .first-section_info {
@@ -549,7 +551,7 @@ header {
     align-items: center;
     background: transparent;
     width: 290px;
-    height: 65px;
+    height: 43px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
